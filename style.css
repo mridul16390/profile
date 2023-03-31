@@ -1,0 +1,242 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+.container1 {
+  display: flex;
+  align-items: space-around;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.title {
+  display: flex;
+  background-color: #e74694;
+  background-image: url(./assets/asset\ 32.png);
+  background-size: 400px;
+  justify-content: center;
+  padding: 20px;
+  color: white !important;
+  font-size: 1.2rem;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.usability_image {
+  width: 180px;
+  padding-top: 15px;
+}
+li {
+  margin: 20px;
+  color: #183b56;
+  font-size: 1.2rem;
+}
+a:hover {
+  color: deepskyblue;
+  transition: 0.2s;
+}
+a {
+  color: #183b56;
+  text-decoration: none;
+  background-color: transparent;
+}
+.ctext {
+  margin-top: 20px;
+  color: #183b56;
+  width: 70%;
+  font-size: 1.5rem;
+}
+.sign_up {
+  border-radius: 5px;
+  background-color: #2294ed;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+.sign_in {
+  border-radius: 5px;
+  color: #183b56;
+  padding: 10px;
+  padding-inline: 20px;
+  border: 1px solid black;
+  font-weight: bold;
+}
+.sign_up:hover {
+  background-color: #0070c6;
+  color: white;
+}
+
+.part_2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding: 50px;
+}
+.text {
+  margin: 80px 0 0 140px;
+}
+.right2 {
+  display: flex;
+  justify-content: space-around;
+}
+.right2 img {
+  width: 90%;
+  margin-right: 350px;
+}
+h1 {
+  color: #183b56;
+  font-size: 3rem;
+}
+
+.get {
+  border-radius: 5px;
+  background-color: #2294ed;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  width: 150px;
+  margin-top: 20px;
+}
+.get:hover {
+  background-color: #0070c6;
+  color: white;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container2 .ctext {
+  display: flex;
+  justify-content: center;
+}
+
+.container2 .company_logo {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  width: 80%;
+}
+.company_logo img {
+  max-height: 50px;
+}
+
+h2 {
+  color: #183b56;
+  margin: 10px;
+}
+.fbackground {
+  background-image: url(assets/asset\ 34.svg);
+  padding-top: 300px;
+  padding-bottom: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+}
+.fbackground .feature {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+  justify-content: space-around;
+}
+.f img {
+  width: 12%;
+}
+.f p {
+  color: #183b56;
+  font-size: 1.2rem;
+  width: 70%;
+}
+.f .sign_in {
+  margin: 10px;
+  width: auto;
+}
+.f {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* gap: 20px; */
+}
+.part_3 {
+  margin-top: 0;
+}
+.part_3 .right2 {
+  margin-left: 10%;
+}
+.part_3 .right2 img {
+  width: 80%;
+  height: 80%;
+}
+.part_3 .text {
+  margin-bottom: 15%;
+  margin-top: 0;
+}
+.part_3 .text .small {
+  width: 20%;
+  margin-bottom: 10px;
+}
+.part_3 .text .p1 {
+  margin-top: 0;
+  margin-bottom: 11px;
+  color: #577592;
+}
+.part_4 {
+  background-color: #183b56;
+  display: flex;
+  padding: 5%;
+  width: 100%;
+}
+.part_4 h1 {
+  color: white;
+}
+.part_4 h2 {
+  color: #b9cde4;
+  margin: 10px 0;
+  width: 60%;
+  font-family:  Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.part_4 h3 {
+  margin: 20px 0;
+  color:white;
+  font-size:x-large;
+}
+.part_4 li {
+  color: #b9cde4;
+}
+.right4 {
+  width: 100%;
+}
+.right4 img{
+  width:80%
+}
+.list {
+  display: flex;
+}
+
+.L {
+  position: relative;
+  top: 20px;
+}
